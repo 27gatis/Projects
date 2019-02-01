@@ -1,0 +1,347 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+/* navbar, carousel */
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;    
+}
+
+.navbar {
+    padding: 16px;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    /* padding: 47px; */
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-top: 47px;
+    /* float: left; */
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #6648b1;
+    border: 1px solid #6648b1;
+}
+
+.btn-primary:hover {
+    background-color: #563d7c;
+}
+
+
+
+/* MAIN PAGE Articles ------------------------------ */
+
+#index3column {
+    width: 100%;
+}
+
+h5.index-articles-head {
+    text-decoration: underline;
+}
+
+#mostrecentarticles {
+    padding-left: 77px;
+    padding-bottom: 12px;
+    padding-top: 23px;
+}
+
+.index-articles {
+    float:left;
+    height: 60%;
+    margin-top: 15px;
+    margin-left:5px;
+    margin-right: 15px;
+    border: 1px solid #d5d5d5;
+}
+
+.index-articles-box {
+border: 1px solid #d5d5d5;
+border-radius: 3px;
+margin-left: 20px;
+margin-right: 20px;
+padding-top: 27px;
+}
+
+
+.clearfix {
+    overflow: auto;
+}
+
+
+
+/* -------------- ARTICLES page --------------------- */
+
+.breadcrumb {
+    background-color: white;
+    /* color: #222; */
+}
+
+.breadcrumb-item a {
+    color: black;
+}
+
+
+
+
+.articles-text,
+.tab-text {
+    text-align: justify;
+}
+
+#articleslist {
+    width: 90%;
+}
+
+/* Arrows */
+i {
+    border: solid #222;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  .page-link {
+      color: #222;
+      border-top: white;
+      border-bottom: white;
+  }
+
+#articlesNumbering {
+ transform: translateY(-200%);
+}
+  
+
+
+
+
+/* -- extra padding -- */
+.padding {
+    padding-bottom: 2rem;
+    
+}
+
+
+/* Footer */
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+footer a {
+    color: #d5d5d5;
+}
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+.social a {
+    font-size: 4em;
+    padding: 2rem;
+}
+
+
+}
+@media (max-width: 768px) {
+    .carousel-caption {
+     
+        top: 45%;
+     
+    }
+    
+    .carousel-caption h1 {
+        font-size: 350%;
+        
+    }
+    
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: 1.2rem;
+    }
+
+    .carousel-caption btn{
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+
+
+.display-4 {
+    font-size: 200%;
+}
+
+
+}
+
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 40%;
+     
+    }
+    
+    .carousel-caption h1 {
+        font-size: 250%;
+        
+    }
+    
+    .carousel-caption h3 {
+        font-size: 110%;
+    }
+
+    .carousel-caption btn{
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .display-4 {
+        font-size: 160%;
+    }
+
+
+}
+
+
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+/*  Page Article 1 + gallery */
+
+.gallery{
+    margin: 10px 50px;
+}
+
+.gallery img{
+    /* float: left; */
+  /* width: 33.33%; */
+    padding: 1px;
+    filter: grayscale(100%);
+    transition: 1s;
+    border: 7px #b4b4b4;
+}
+
+.gallery img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+
+a .galleryfirst {
+    width: 100%;
+    padding: 1px;
+    filter: grayscale(100%);
+    transition: 1s;
+    border: 7px #b4b4b4;
+}
+
+a .galleryfirst:hover {
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+.article1text {
+    text-align: justify;
+}
+
+.biggallery {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* ------- REGISTER page ------ */
+
+.registration {
+    margin: 5px;
+    padding: 5px;
+}
+
+.register-header {
+    /* margin: 10px; */
+    padding: 7px;
+    margin-left: 30px;
+}
+.registration-main-heading {
+    margin-left: 15px;
+}
+
+/* ------------ ABOUT US page --------- */
+
+.tabstable {
+    width: 87%;
+}
+
+.adressBook {
+   padding-left: 23px;
+}
+
+.addressHeading {
+    /* padding-left: 17px; */
+    padding-top: 123px;
+    padding-bottom: -30%;
+}

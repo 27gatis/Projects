@@ -1,0 +1,19 @@
+h1{
+    clear: both;
+    display:inline;
+    /* float:left; */
+    }
+
+h2{
+    clear: both;
+    display: inline;
+}
+
+#increment, #buy1, #buy10 {
+    border-radius: 17px;
+}
+
+h4{
+    clear: both;
+    display: inline;
+}
