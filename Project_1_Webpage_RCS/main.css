@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 
-/* navbar, carousel */
+/* ---------- navbar, carousel ------------ */
 html, body {
     height: 100%;
     width: 100%;
@@ -27,11 +27,9 @@ html, body {
     height: 100%;
     width: 100%;
     object-fit: fill;
-    /* padding: 47px; */
     padding-left: 47px;
     padding-right: 47px;
     padding-top: 47px;
-    /* float: left; */
 }
 
 .carousel-caption {
@@ -64,7 +62,7 @@ html, body {
 
 
 
-/* MAIN PAGE Articles ------------------------------ */
+/* -------------- MAIN PAGE Articles --------------------- */
 
 #index3column {
     width: 100%;
@@ -108,7 +106,6 @@ padding-top: 27px;
 
 .breadcrumb {
     background-color: white;
-    /* color: #222; */
 }
 
 .breadcrumb-item a {
@@ -127,7 +124,7 @@ padding-top: 27px;
     width: 90%;
 }
 
-/* Arrows */
+/* ------------ Arrows ---------------- */
 i {
     border: solid #222;
     border-width: 0 3px 3px 0;
@@ -159,14 +156,13 @@ i {
 
 
 
-/* -- extra padding -- */
+/* --------- extra padding ----------- */
 .padding {
-    padding-bottom: 2rem;
-    
+    padding-bottom: 2rem;   
 }
 
 
-/* Footer */
+/* ------------ Footer -------------- */
 
 hr.light {
     border-top: 1px solid #d5d5d5;
@@ -187,7 +183,7 @@ hr.light-100 {
 
 
 
-/*---Media Queries --*/
+/*------------ Media Queries ---------------*/
 @media (max-width: 992px) {
 .social a {
     font-size: 4em;
@@ -262,23 +258,19 @@ hr.light-100 {
 
 
 
-/*--- Bootstrap Padding Fix --*/
+/*--- Bootstrap Padding Fix ---*/
 [class*="col-"] {
     padding: 1rem;
 }
 
 
-
-
-/*  Page Article 1 + gallery */
+/* ----------------- Page Article 1 + gallery -------------- */
 
 .gallery{
     margin: 10px 50px;
 }
 
 .gallery img{
-    /* float: left; */
-  /* width: 33.33%; */
     padding: 1px;
     filter: grayscale(100%);
     transition: 1s;
@@ -322,7 +314,6 @@ a .galleryfirst:hover {
 }
 
 .register-header {
-    /* margin: 10px; */
     padding: 7px;
     margin-left: 30px;
 }
@@ -341,7 +332,6 @@ a .galleryfirst:hover {
 }
 
 .addressHeading {
-    /* padding-left: 17px; */
     padding-top: 123px;
     padding-bottom: -30%;
 }
